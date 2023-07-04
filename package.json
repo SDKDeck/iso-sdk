@@ -1,0 +1,34 @@
+{
+  "name": "@sdkdeck/iso-deck",
+  "version": "1.0.0",
+  "description": "An SDK for ISO standards.",
+  "main": "sdk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDKDeck/iso-sdk.git"
+  },
+  "keywords": [
+    "sdk",
+    "iso",
+    "standards"
+  ],
+  "author": "SDKDeck",
+  "contributors": [
+    {
+      "name": "asagiri-kiyomi",
+      "github": "https://github.com/asagiri-kiyomi"
+    },
+    {
+      "name": "ryoji-kyroga",
+      "github": "https://github.com/ryoji-kyroga"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SDKDeck/iso-sdk/issues"
+  },
+  "homepage": "https://github.com/SDKDeck/iso-sdk#readme"
+}
