@@ -30,5 +30,6 @@
   "bugs": {
     "url": "https://github.com/SDKDeck/iso-sdk/issues"
   },
-  "homepage": "https://github.com/SDKDeck/iso-sdk#readme"
+  "homepage": "https://github.com/SDKDeck/iso-sdk#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
