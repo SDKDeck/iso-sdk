@@ -47,10 +47,11 @@ ISO 4217 is a standard published by the International Organization for Standardi
     ```json
     [
         {
-            "code": "PHP",
-            "no": 608,
-            "decimals": 2,
-            "name": "Philippine Peso"
+            "name" : "Philippine Peso",
+            "code" : "PHP",
+            "no" : "608",
+            "decimals" : 2,
+            "countries" : ["PH"]
         }
     ]
     ```

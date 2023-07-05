@@ -1,16 +1,8 @@
-const data = [
-    {
-        "code": "PHP",
-        "no": 608,
-        "decimals": 2,
-        "name": "Philippine Peso"
-    }
-]
+const data = require("./iso-4217-data.json")
 
 data.getByCode = function(code) {
     return this.find(record => record.code === code);
 }
-
 
 data.getByNumericCode = function(code) {
     return this.find(record => record.no == code);
