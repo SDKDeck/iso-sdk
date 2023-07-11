@@ -1,4 +1,4 @@
-const data = require("./iso-3166-data.json")
+const data = require("./iso-3166-1-data.json")
 
 data.getByAlpha2Code = function(code) {
     return this.find(record => record.alpha2 === code);
