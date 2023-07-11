@@ -1,6 +1,6 @@
 {
   "name": "@sdkdeck/iso-sdk",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "An SDK for ISO standards.",
   "main": "src/sdk.js",
   "scripts": {

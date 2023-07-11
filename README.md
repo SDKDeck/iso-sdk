@@ -1,12 +1,9 @@
 # iso-sdk
 
-[![npm version](https://badgen.net/npm/v/@sdkdeck/iso-sdk/latest)](https://www.npmjs.com/package/@sdkdeck/iso-sdk)
-[![node](https://badgen.net/npm/node/@sdkdeck/iso-sdk/latest)](https://www.npmjs.com/package/@sdkdeck/iso-sdk)
 [![npm downloads](https://badgen.net/npm/dw/@sdkdeck/iso-sdk/latest)](https://www.npmjs.com/package/@sdkdeck/iso-sdk)
 [![npm downloads](https://badgen.net/npm/dm/@sdkdeck/iso-sdk/latest)](https://www.npmjs.com/package/@sdkdeck/iso-sdk)
 [![npm downloads](https://badgen.net/npm/dy/@sdkdeck/iso-sdk/latest)](https://www.npmjs.com/package/@sdkdeck/iso-sdk)
 [![npm downloads](https://badgen.net/npm/dt/@sdkdeck/iso-sdk/latest)](https://www.npmjs.com/package/@sdkdeck/iso-sdk)
-[![dependents](https://badgen.net/npm/dependents/@sdkdeck/iso-sdk/latest)](https://www.npmjs.com/package/@sdkdeck/iso-sdk)
 [![license](https://badgen.net/npm/license/@sdkdeck/iso-sdk/latest)](https://www.npmjs.com/package/@sdkdeck/iso-sdk)
 
 An SDK for ISO standards. Vist our SDK on NPM, https://www.npmjs.com/package/@sdkdeck/iso-sdk.
