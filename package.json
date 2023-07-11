@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "/src/iso/**-data.min.json",
+    "/src/iso/**.js",
+    "/src/sdk.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SDKDeck/iso-sdk.git"
