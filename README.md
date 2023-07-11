@@ -13,6 +13,8 @@ An SDK for ISO standards. Vist our SDK on NPM, https://www.npmjs.com/package/@sd
 
 ---
 
+Disclaimer: The information provided in this SDK is based on the latest standard available as of July 2023. While efforts are continuously being made to ensure the accuracy and reliability of the information, there is no guarantee of its completeness, correctness, or timeliness. Users of this SDK are advised to independently verify and validate the information according to their specific requirements and consult relevant official sources or experts as needed. The use of this SDK and reliance on its information are at the user's own risk. The SDK provider disclaims any liability for any loss or damages incurred directly or indirectly from the use of this SDK or its information. Please note that standards and regulations may change over time, and it is the user's responsibility to stay updated with the latest information. This SDK is not intended to replace professional advice or serve as a substitute for official documentation. Always consult appropriate authorities or experts for specific guidance and compliance with applicable standards and regulations.
+
 ## Documentation
 
 ### Contents
