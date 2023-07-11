@@ -20,7 +20,7 @@ An SDK for ISO standards. Vist our SDK on NPM, https://www.npmjs.com/package/@sd
 - [Installation](#installation)
 - [Usage](#usage)
   - [ISO 4217](#iso-4217)
-  - [ISO 3166](#iso-3166)
+  - [ISO 3166-1](#iso-3166-1)
 
 ### Installation
 
