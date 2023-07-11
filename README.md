@@ -7,10 +7,9 @@
 [![npm downloads](https://badgen.net/npm/dy/@sdkdeck/iso-sdk/latest)](https://www.npmjs.com/package/@sdkdeck/iso-sdk)
 [![npm downloads](https://badgen.net/npm/dt/@sdkdeck/iso-sdk/latest)](https://www.npmjs.com/package/@sdkdeck/iso-sdk)
 [![dependents](https://badgen.net/npm/dependents/@sdkdeck/iso-sdk/latest)](https://www.npmjs.com/package/@sdkdeck/iso-sdk)
-[![types](https://badgen.net/npm/types/@sdkdeck/iso-sdk/latest)](https://www.npmjs.com/package/@sdkdeck/iso-sdk)
 [![license](https://badgen.net/npm/license/@sdkdeck/iso-sdk/latest)](https://www.npmjs.com/package/@sdkdeck/iso-sdk)
 
-An SDK for ISO standards.
+An SDK for ISO standards. Vist our SDK on NPM, https://www.npmjs.com/package/@sdkdeck/iso-sdk.
 
 ---
 
@@ -21,6 +20,7 @@ An SDK for ISO standards.
 - [Installation](#installation)
 - [Usage](#usage)
   - [ISO 4217](#iso-4217)
+  - [ISO 3166](#iso-3166)
 
 ### Installation
 
@@ -32,7 +32,7 @@ $ npm i @sdkdeck/iso-sdk
 
 #### ISO-4217
 
-ISO 4217 is a standard published by the International Organization for Standardization (ISO) that defines alpha codes and numeric codes for the representation of currencies and provides information about the relationships between individual currencies and their minor units.
+**ISO 4217** is a standard published by the International Organization for Standardization (ISO) that defines alpha codes and numeric codes for the representation of currencies and provides information about the relationships between individual currencies and their minor units.
 
 - To use the standard, you may import using:
 
@@ -76,4 +76,65 @@ ISO 4217 is a standard published by the International Organization for Standardi
      * @name [string] numeric code of the currency
      **/
     ISO4217CurrencyCode.getByName("Philippine")
+    ```
+
+#### ISO-3166-1
+
+**ISO 3166-1** is an ISO standard published by the International Organization for Standardization (ISO) that defines codes for the names of countries, dependent territories, special areas of geographical interest, and their principal subdivisions (e.g., provinces or states). The official name of the standard is Codes for the representation of names of countries and their subdivisions.
+
+**Part 1**: Country codes, defines codes for the names of countries, dependent territories, and special areas of geographical interest. It defines three sets of country codes:
+
+**ISO 3166-1 alpha-2** – two-letter country codes which are the most widely used of the three, and used most prominently for the Internet's country code top-level domains (with a few exceptions).
+
+**ISO 3166-1 alpha-3** – three-letter country codes which allow a better visual association between the codes and the country names than the alpha-2 codes.
+
+**ISO 3166-1 numeric** – three-digit country codes which are identical to those developed and maintained by the United Nations Statistics Division, with the advantage of script (writing system) independence, and hence useful for people or systems using non-Latin scripts.
+
+- To use the standard, you may import using:
+
+    ```js
+    const { ISO3166P1CountryCode } = require("@sdkdeck/iso-sdk")
+    // or
+    import { ISO3166P1CountryCode } from "@sdkdeck/iso-sdk"
+    ```
+
+- The standard has the following data format:
+
+    ```json
+    [
+        {
+            "name": "Philippines (the)",
+            "alpha2": "PH",
+            "alpha3": "PHL",
+            "no": "608"
+        }
+    ]
+    ```
+
+- Consume the standard using the following:
+
+    ```js
+    /**
+     * getByAlpha2Code(code)
+     * @code [string] alpha-2 code of the country
+     **/
+    ISO3166P1CountryCode.getByAlpha2Code("PH")
+
+    /**
+     * getByAlpha3Code(code)
+     * @code [string] alpha-3 code of the country
+     **/
+    ISO3166P1CountryCode.getByAlpha3Code("PHL")
+
+    /**
+     * getByNumericCode(code)
+     * @code [string] numeric code of the country
+     **/
+    ISO3166P1CountryCode.getByNumericCode("608")
+    
+    /**
+     * getByName(name)
+     * @code [string] name of the country
+     **/
+    ISO3166P1CountryCode.getByName("Philippines")
     ```
