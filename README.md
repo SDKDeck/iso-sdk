@@ -134,7 +134,7 @@ $ npm i @sdkdeck/iso-sdk
     
     /**
      * getByName(name)
-     * @code [string] name of the country
+     * @name [string] name of the country
      **/
     ISO3166P1CountryCode.getByName("Philippines")
     ```

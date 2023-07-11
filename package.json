@@ -1,6 +1,6 @@
 {
   "name": "@sdkdeck/iso-sdk",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "An SDK for ISO standards.",
   "main": "src/sdk.js",
   "scripts": {
@@ -16,9 +16,10 @@
     "url": "git+https://github.com/SDKDeck/iso-sdk.git"
   },
   "keywords": [
-    "sdk",
     "iso",
-    "standards"
+    "standard",
+    "standards",
+    "sdk"
   ],
   "author": "SDKDeck",
   "contributors": [
